@@ -1,0 +1,14 @@
+POST  http://localhost:3000/users/register
+Content-Type: application/json
+
+{
+  "email": "hughshen@qq.com",
+  "password": "Aa123456",
+  "nickname": "nick"
+}
+
+###
+GET   http://localhost:3000/users/c153f7c1-91c7-42c8-a487-201da1f616fc
+Content-Type: application/json
+
+
